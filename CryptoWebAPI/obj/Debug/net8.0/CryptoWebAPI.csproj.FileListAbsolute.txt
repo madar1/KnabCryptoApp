@@ -1,5 +1,3 @@
-/workspaces/KnabCryptoApp/CryptoWebAPI/bin/Debug/net8.0/appsettings.Development.json
-/workspaces/KnabCryptoApp/CryptoWebAPI/bin/Debug/net8.0/appsettings.json
 /workspaces/KnabCryptoApp/CryptoWebAPI/bin/Debug/net8.0/CryptoWebAPI
 /workspaces/KnabCryptoApp/CryptoWebAPI/bin/Debug/net8.0/CryptoWebAPI.deps.json
 /workspaces/KnabCryptoApp/CryptoWebAPI/bin/Debug/net8.0/CryptoWebAPI.runtimeconfig.json
@@ -50,3 +48,5 @@
 /workspaces/KnabCryptoApp/CryptoWebAPI/obj/Debug/net8.0/CryptoWebAPI.pdb
 /workspaces/KnabCryptoApp/CryptoWebAPI/obj/Debug/net8.0/CryptoWebAPI.genruntimeconfig.cache
 /workspaces/KnabCryptoApp/CryptoWebAPI/obj/Debug/net8.0/ref/CryptoWebAPI.dll
+/workspaces/KnabCryptoApp/CryptoWebAPI/bin/Debug/net8.0/appsettings.Development.json
+/workspaces/KnabCryptoApp/CryptoWebAPI/bin/Debug/net8.0/appsettings.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d63d3520cd431cfae0458956a7eb736d255306a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+774115cfd690cdc6a49698839095e4cb3d8863b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
