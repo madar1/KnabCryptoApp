@@ -2,17 +2,16 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Options;
 
 public class ExchangeRateService
 {
     private readonly HttpClient _httpClient;
-    private readonly AppSettings _appSettings;
+    private readonly string _apiKey;
 
-    public ExchangeRateService(HttpClient httpClient, IOptions<AppSettings> appSettings)
+    public ExchangeRateService(HttpClient httpClient, IConfiguration configuration)
     {
         _httpClient = httpClient;
-        _appSettings = appSettings.Value;
+        _apiKey = configuration["ExchangeRates:ApiKey"];
     }
 
     public async Task<Dictionary<string, decimal>> GetExchangeRates()

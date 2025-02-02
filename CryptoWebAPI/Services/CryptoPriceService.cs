@@ -1,26 +1,23 @@
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Options;
 
 public class CryptoPriceService
 {
     private readonly HttpClient _httpClient;
-    private readonly AppSettings _appSettings;
+    private readonly string _apiKey;
 
-
-    public CryptoPriceService(HttpClient httpClient, IOptions<AppSettings> appSettings)
+    public CryptoPriceService(HttpClient httpClient, IConfiguration configuration)
     {
         _httpClient = httpClient;
-        _appSettings = appSettings.Value;
+        _apiKey = configuration["CoinMarketCap:ApiKey"];
     }
 
     public async Task<decimal> GetCryptoPriceInUSD(string cryptoSymbol)
     {
-        var apiKey = _appSettings.CoinMarketCap.ApiKey;
         var requestUri = $"https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol={cryptoSymbol}&convert=USD";
         var request = new HttpRequestMessage(HttpMethod.Get, requestUri);
-        request.Headers.Add("X-CMC_PRO_API_KEY", apiKey);
+        request.Headers.Add("X-CMC_PRO_API_KEY", _apiKey);
 
         var response = await _httpClient.SendAsync(request);
         response.EnsureSuccessStatusCode();
