@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj": {}
+    "C:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj": {
+    "C:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj",
         "projectName": "CryptoWebAPI",
-        "projectPath": "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj",
+        "projectPath": "C:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj",
         "packagesPath": "C:\\Users\\PHC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PHC\\AppData\\Roaming\\NuGet\\NuGet.Config",

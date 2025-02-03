@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication": "2.3.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.12",
+          "Microsoft.AspNetCore.Mvc.ApiExplorer": "2.3.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.11",
           "Microsoft.Extensions.Http": "9.0.1",
@@ -144,6 +145,11 @@
         "dependencies": {
           "Microsoft.AspNetCore.Routing.Abstractions": "2.3.0",
           "Microsoft.Net.Http.Headers": "2.3.0"
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.ApiExplorer/2.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.3.0"
         }
       },
       "Microsoft.AspNetCore.Mvc.Core/2.3.0": {
@@ -1372,6 +1378,13 @@
       "sha512": "sha512-xrF8Fh10hEAS6Qp967IgPqNw2iz3/3Q8FQo+Jowbytaj1JJN86p0z851hSH4XP/sFnI5gFu7mGdkplirAJMWPw==",
       "path": "microsoft.aspnetcore.mvc.abstractions/2.3.0",
       "hashPath": "microsoft.aspnetcore.mvc.abstractions.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.ApiExplorer/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aEY2mftyiiamLq3ReyRcqpdJEtbKPeW0tmtxb265D4NiO+5S7ll8EG+oUfADScoMMXazg7e/eOYK2eDafrzCQA==",
+      "path": "microsoft.aspnetcore.mvc.apiexplorer/2.3.0",
+      "hashPath": "microsoft.aspnetcore.mvc.apiexplorer.2.3.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Core/2.3.0": {
       "type": "package",

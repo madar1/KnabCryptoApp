@@ -148,3 +148,4 @@ C:\Users\PHC\Documents\VS Projects\KnabCryptoApp\CryptoApi.Tests\obj\Debug\net8.
 C:\Users\PHC\Documents\VS Projects\KnabCryptoApp\CryptoApi.Tests\obj\Debug\net8.0\CryptoApi.Tests.pdb
 C:\Users\PHC\Documents\VS Projects\KnabCryptoApp\CryptoApi.Tests\obj\Debug\net8.0\CryptoApi.Tests.genruntimeconfig.cache
 C:\Users\PHC\Documents\VS Projects\KnabCryptoApp\CryptoApi.Tests\obj\Debug\net8.0\ref\CryptoApi.Tests.dll
+c:\Users\PHC\Documents\VS Projects\KnabCryptoApp\CryptoApi.Tests\bin\Debug\net8.0\CryptoWebAPI.xml

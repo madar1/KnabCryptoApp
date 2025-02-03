@@ -38,7 +38,7 @@ public class CryptoQuoteControllerTests
         _controller = new CryptoQuoteController(_mockCryptoQuoteService.Object, _mockAppSettings.Object);
     }
 
-    // ✅ Test JWT Token Generation on Login
+  
     [Fact]
     public void Login_ReturnsJwtToken()
     {
@@ -52,7 +52,7 @@ public class CryptoQuoteControllerTests
         Assert.NotNull(response);
     }
 
-    // ✅ Test Ping Endpoint
+
     [Fact]
     public async Task Ping_ReturnsOk()
     {
@@ -63,7 +63,7 @@ public class CryptoQuoteControllerTests
         Assert.IsType<OkResult>(result);
     }
 
-    // ✅ Test GetQuote with Valid Crypto Symbol
+
     [Fact]
     public async Task GetQuote_ValidCryptoSymbol_ReturnsCryptoQuoteResponse()
     {
@@ -102,7 +102,7 @@ public class CryptoQuoteControllerTests
         Assert.Equal(expectedQuote, response.Quote);
     }
 
-    // ✅ Test GetQuote with CoinMarketCap API Failure (400)
+
     [Fact]
     public async Task GetQuote_CoinMarketCapException_ReturnsBadRequest()
     {
@@ -128,7 +128,7 @@ public class CryptoQuoteControllerTests
         Assert.Contains("Request to get crypto prices failed", objectResult.Value.ToString());
     }
 
-    // ✅ Test GetQuote with Exchange Rate API Failure (502)
+
     [Fact]
     public async Task GetQuote_ExchangeRateException_ReturnsBadGateway()
     {
@@ -154,7 +154,7 @@ public class CryptoQuoteControllerTests
         Assert.Contains("Exchange API error", objectResult.Value.ToString());
     }
 
-    // ✅ Test GetQuote with Unhandled Exception (500)
+
     [Fact]
     public async Task GetQuote_UnhandledException_ReturnsInternalServerError()
     {

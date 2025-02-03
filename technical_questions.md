@@ -24,12 +24,12 @@
     }
 
 3. Yes. I have tracked down performance issues in production. My regular pattern is the following:
--Identify the issues: determine what's slow or what is faulty. Check response times, CPU, Memory, Database queries execution times.
+-Identify the issues: determine what is slow or what is faulty. Check response times, CPU, Memory, Database queries execution times.
 -Analyze logs and traces.
 -Use profiling tools.
 -Create a recovery/solution plan.
 
-4. "I constantly read technical articles to stay up to speed with what's happening in this ever-evolving tech space. The last tech book I read was Enterprise Integration Patterns by Gregor Hohpe and Bobby Woolf. Even though this book is considered 'old,' it presents integration patterns that are still ubiquitously used in modern microservices and event-driven ecosystems."
+4. I constantly read technical articles to stay up to speed with what is happening in this ever-evolving tech space. The last tech book I read was Enterprise Integration Patterns by Gregor Hohpe and Bobby Woolf. Even though this book is considered 'old,' it presents integration patterns that are still ubiquitously used in modern microservices and event-driven ecosystems.
 
 5. A stright-forward assignment for testing development capabilities. At first glance, it seems a pretty easy task, but as you start coding, you start asking yourself questions about non-functional or functional requirements, and patterns/answers pop into your mind, that eventually get added into the code, making the app more resilient.
 
@@ -38,14 +38,14 @@
   "name": "Madalin Roventa",
   "age": 34,
   "intro": "Results-oriented Software Team Lead",
-  "capabilities": [
+  "skills": [
     "Leadership & Team Management",
     "Software Development Expertise",
     "Excellent communicator",
     "Analytical mindset",
     "customer-focused problem-solving",
   ],
-  "personalCapabilities": "father of two"
+  "personalSkills": "father of two"
   "contact": {
     "github": "https://github.com/madar1",
     "linkedin": "https://www.linkedin.com/in/madalin-roventa/",
