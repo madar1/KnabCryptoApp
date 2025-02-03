@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/KnabCryptoApp/CryptoWebAPI/CryptoWebAPI.csproj": {}
+    "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj": {}
   },
   "projects": {
-    "/workspaces/KnabCryptoApp/CryptoWebAPI/CryptoWebAPI.csproj": {
+    "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/KnabCryptoApp/CryptoWebAPI/CryptoWebAPI.csproj",
+        "projectUniqueName": "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj",
         "projectName": "CryptoWebAPI",
-        "projectPath": "/workspaces/KnabCryptoApp/CryptoWebAPI/CryptoWebAPI.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/KnabCryptoApp/CryptoWebAPI/obj/",
+        "projectPath": "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\CryptoWebAPI.csproj",
+        "packagesPath": "C:\\Users\\PHC\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\PHC\\Documents\\VS Projects\\KnabCryptoApp\\CryptoWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,13 +49,17 @@
               "target": "Package",
               "version": "[2.3.0, )"
             },
-            "Microsoft.AspNetCore.Authentication.Google": {
-              "target": "Package",
-              "version": "[8.0.12, )"
-            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -67,6 +73,18 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -74,6 +92,10 @@
             "System.Text.Json": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
             }
           },
           "imports": [
@@ -95,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

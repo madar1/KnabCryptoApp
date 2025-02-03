@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/CryptoWebAPI.props" />
+  <Import Project="..\buildMultiTargeting\CryptoWebAPI.props" />
 </Project>

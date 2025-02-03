@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CryptoWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CryptoWebAPI.Controllers.CryptoQuoteController.Login">
+            <summary>
+            Used for requesting a token to mock an authorized front-end app
+            </summary>
+            <returns>
+            A JWT token to be used in the GET crypto quote endpoint
+            </returns>
+        </member>
+        <member name="M:CryptoWebAPI.Controllers.CryptoQuoteController.Ping">
+            <summary>
+            Used for liveness probe
+            </summary>
+            <returns>
+            An OKResult if the app is alive 
+            </returns>
+        </member>
+        <member name="M:CryptoWebAPI.Controllers.CryptoQuoteController.GetQuote(System.String)">
+            <summary>
+            Used for getting crypto quotes
+            </summary>
+            <returns>
+            The quotes in different currencies for the user input crypto symbol and the user email.
+            </returns>
+        </member>
+    </members>
+</doc>

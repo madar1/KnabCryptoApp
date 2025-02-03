@@ -1,7 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using CryptoWebAPI.Services.Interfaces;
 
-public class CryptoQuoteService
+namespace CryptoWebAPI.Services;
+
+public class CryptoQuoteService: ICryptoQuoteService
 {
     private readonly CryptoPriceService _cryptoPriceService;
     private readonly ExchangeRateService _exchangeRateService;
@@ -14,16 +17,16 @@ public class CryptoQuoteService
 
     public async Task<Dictionary<string, decimal>> GetCryptoQuote(string cryptoSymbol)
     {
-        decimal priceInUSD = await _cryptoPriceService.GetCryptoPriceInUSD(cryptoSymbol);
+        decimal priceInEUR = await _cryptoPriceService.GetCryptoPriceInEUR(cryptoSymbol);         
         var exchangeRates = await _exchangeRateService.GetExchangeRates();
 
         return new Dictionary<string, decimal>
         {
-            { "USD", priceInUSD },
-            { "EUR", priceInUSD * exchangeRates["EUR"] },
-            { "BRL", priceInUSD * exchangeRates["BRL"] },
-            { "GBP", priceInUSD * exchangeRates["GBP"] },
-            { "AUD", priceInUSD * exchangeRates["AUD"] }
+            { "EUR", priceInEUR },
+            { "USD", priceInEUR * exchangeRates["USD"] },
+            { "BRL", priceInEUR * exchangeRates["BRL"] },
+            { "GBP", priceInEUR * exchangeRates["GBP"] },
+            { "AUD", priceInEUR * exchangeRates["AUD"] }
         };
     }
 }
